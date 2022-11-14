@@ -25,6 +25,7 @@
 * understanding responsibility will maximize benefit
 * support teammates in good orginzational culture
 
+
 ## Orginization
 * understanding business needs
 *Design telemetry - logs, events for understanding state
@@ -54,3 +55,109 @@
 * prioritize and dirive improvements where needed
 * begin on operations activities, customer experiences and business dev teams
 * Recognize improvement
+
+
+
+
+# Securtiy Pillar
+
+*Focus on protecting systems, information and assets
+* Identity and access management
+* Detection
+* Infrastructure protection
+* Data protection
+* Incident response
+
+## Design Principles
+* impliment a strong identity foundation
+* use fine-grained access controls
+* apply security at all layers
+* automate security best practices
+* prepare for security events and automation 
+
+## Securely Operate
+* organize workloads in separate accounts or common set of controls
+* use AWS controls and orginzations
+* set common gaurdrails to encourage best practices and automate certain tasks
+
+### IAM policy
+* AWS identity and access management 
+* strong sign in mechanisms
+* minimum password length
+* centralizing identity provider
+* AWS single sign on 
+* automatic rotation like AWS secrets manager
+
+Permissions
+* manage permissions for human and machine identities
+* clear definition of who has access to what
+* gran least privilege 
+* limit public and cross account access to only resources that require this access
+* reduce permissions continuously 
+
+## Amazon Cognito
+* support muliple login providers
+* unique users/devices
+* helps implement security best practices
+
+## Detective controls
+* inventory assets and detailed attributes / lifecycle controls 
+* internal auditing to examine controls
+* automated alerting 
+
+### Example
+* automate playbook with AWS Config service - event is evoked against your rule and code is ran
+* essentially your playbook is in code and will run automatically
+
+## infrastructure protection
+* define trust boundaries - network and account boundaries
+* security Config
+* operating systems
+* firewalls and or API gateways
+* enable people to perform actions at a distance
+
+### Example
+* control at all layers. is it accesible to AWS 
+* use EDGE services
+* divide amazon virtual private cloud into layers
+* use all controls available
+
+## use managed servicves
+* customers can focus on securing more important aspects of workload
+* managed service takes care of underlying instances or compute and therefore patching and hardening
+
+## Data protection
+* data classification if public or internal information only, or more restricted access like IP, marked senstiive
+* Amazon Macy can help with this 
+* KMS key management service
+* Keep people away from data 
+* provide a dashboard
+* enforce encryption 
+
+### Example
+* encrypting data in transit and at rest
+
+## Keep people away from Data
+* provide a dashboard 
+* use continous integration or continuyos deployment
+* determine which controls and processes are required
+
+
+## Incident response
+* Easy way to gain access during incident 
+* right predeployed tools
+* conduct game days regularly to simulate security events
+
+### Example
+* create new trusted environment to conduct investigations
+* isolated from other environemnts
+* clean room 
+* pre existing template 
+* use AWS cloudformation to create a stack based on your template. 
+* contsrtucts and configures your stack resources
+
+* protecting information systems and assetts
+* keeping root account credentials protected
+* encrypting data at rest and in transit on AWS if applicable
+* ensuring that only authorized authenticated users are able to acess your resources
+* Using detective controls to detect or identify a security breach
