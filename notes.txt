@@ -161,3 +161,188 @@ Permissions
 * encrypting data at rest and in transit on AWS if applicable
 * ensuring that only authorized authenticated users are able to acess your resources
 * Using detective controls to detect or identify a security breach
+
+# Reliability Pillar
+* resiliency - ability of workload to recover from disruptions
+* dynamically aquire computing resources to meet damnd
+* mitigate disruptions
+
+## Foundations
+## Workload Architecutre
+## Change management
+## Failure Management
+
+## Cloud environment
+* automatically recover from failure
+* test recovery procedures* scale horizontally to increase aggregate workload availability
+* Stop guessing capacity
+* Manage change in automation
+
+## Network topology
+* sufficient network bandwith to your data center
+
+## Service quots or Service Limits
+* limit request rates to protect abuse 
+* amount of storage
+* fixed limites or design contraints
+
+## Service Oriented Architecutre (SOA)
+* practice of making components reusable
+* components smaller and simpler
+* must act reliably 
+* architecture design to prevent failures
+* service oriented architecture or microserbvices
+* architecture design to mitigate failures (limiting ques, throttling requests)
+
+## Monitor workload 
+* monitor behavior 
+* AWS Amazon Simple Notification Service (SNS) control who has permissions, audit history
+* Review key metrics closely  with automated responses 
+* Amazon CloudWatch 
+
+### Example
+* automatic scaling
+* EC2 instances which creates instances when you need it 
+
+## Deployment 
+* use runbooks 
+* integrate testing as part of deployment
+* use immutable infrastructure
+
+## Withstand component failures 
+* Automation to react to monitoring data 
+* launch actions when threshold crossed
+* analyze 
+* backup data 
+* recover processes
+
+## Fault isolation 
+* deploy workload to mulitple locations, distribute data across regions
+* bulkhead architecture shards and cells 
+* multiple availability zones
+
+### Example 
+* DR 
+* defined objectives
+* backup strategy 
+* periodic recovery testing
+* automated recovery 
+* regular schedule or periodic reviews 
+* assess system fitness 
+* mitigate single points of failure 
+* confident that you can recover all data  
+* use playbooks
+* test function and performance
+* use chaos engineering, hypothesize how it will react to failure
+* ensure this testing doesn't affect users 
+
+## Key points 
+* focus on resiliency how to recover from disruptions
+* dynamically adapt to demand 
+* Foundations - managing qyotas
+* Workload Architecutre 
+* Change Management 
+* Failure Management 
+
+
+# Performance Efficiency Pillar 
+* Revolves around IT efficiency 
+* Selection 
+* Review 
+* Monitoring 
+* Trade-offs 
+
+## Cloud environment 
+* try new tech 
+* go global in minutes 
+* use serverless architecutres 
+* experiment more often 
+* consider mechanical sympathy 
+
+## Selection 
+* appropriate resource types 
+* benchmark and load test 
+* monitor perfromance 
+
+## Appropriate resources
+* select appropriate resource
+* improve performance 
+* compute storage database and networking resources 
+* load testing 
+* cost / budget
+* monitoring and Notification 
+
+### Example 
+* load testing - AWS CloudFormation to define your architecture as code 
+* production scale test 
+* experiment with features ina low risk way 
+* terminate when done 
+* low cost 
+
+## Monitoring 
+*use automation to work around performance issues by launching actions through 
+* amazong cloudwatch, amazon kinesis, amazon simple que service, AwS Lambda
+
+### Example 
+* Performance alarms 
+* automated action to work around badly performing components 
+
+## Trade-offs 
+* trade off where space is used to reduce processing time 
+* positions resources 
+* add read only replicas 
+* collect and evaluate 
+* measure impact to see how trade offs impact performance 
+* load testing 
+
+### Example 
+* proximity and chacheing mechanisms 
+* Amazon CloudFront to cahce content closer to user 
+* Amazon Elasticache 
+* Amazon RDS replicas (sometimes the easiest)
+
+# Cost Optimization Pillar 
+
+## ability to achieve outcomes at lowest pricepoint 
+* Practice Cloud Financial Management 
+* Expenditure and usage awareness 
+* Cost-effective resources 
+* Manage demand and supply resources 
+* Optimize over time 
+
+## Cloud 
+* Implement cloud financial management
+* pay only for the consumption - adopt a consumption model
+* Measure overall efficiency 
+* Stop spending money on undifferentiated heavy lifting 
+* Analtze and attribute expenditure 
+
+## Cost effective resources 
+* use most effective resources 
+* managed services 
+
+## Pricing Model 
+* on demand instance - pay by hour no long term demand 
+* savings plans and reserved instances 
+* spot instances up to 6 hours 
+
+## Services 
+* Amazon RDS 
+* Redshift 
+* CloudFormation 
+* Elasticsearch Service 
+* take advantage of managed AWS services 
+* consider application - level services 
+* automation can reduce costs 
+* analyze available services 
+
+## Manage suply and demand resources 
+* modify demand with throttle or buffer
+* Resource provisioning to match demand 
+* AWS auto scaling 
+* monitoring toools 
+* benchamrking 
+
+## Example 
+* manage demand and supply with the right amount of resources 
+* supply the right amount of resrouces through AWS atuco scaling demand based or time based
