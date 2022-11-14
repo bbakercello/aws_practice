@@ -1,0 +1,21 @@
+Operational Excellence
+
+- Ability to run and monitor systems to deliver business 
+    - Organization - how Organization supports businses outcomes and teamates 
+    - Prepare - review readiness of workloads and teams to make decisions when to go live
+    - Operate - identify when Organization outcomes are at risk and respond
+    - Evolve - Continuous improvement - feedback loops, learning, making improvements
+
+Traditional Environment 
+- manual cheanges
+- batch cheanges
+- rarely run Game Days
+- No time to learn from mistakes
+- Stale documentation
+
+Vs Cloud
+- Perform operations as code
+- Make frequent, small, revesrible cheanges
+- Refine operations procedures frequently
+- Anticipate failure
+- Learn from all operational failures
