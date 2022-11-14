@@ -346,3 +346,93 @@ Permissions
 ## Example 
 * manage demand and supply with the right amount of resources 
 * supply the right amount of resrouces through AWS atuco scaling demand based or time based
+
+## Expenditure awareness 
+* accurate cost attribution allows you to understand cost 
+* tag resources 
+* track project lifecycle and profile applications 
+* monitor usage and spend 
+* use AWS cost explorer 
+* use partner tools
+
+## AWS Cost Explorer 
+* see which services you see most 
+* which zones most traffic 
+
+## Optimizing over time 
+* Decommission resources or services you no longer require 
+* AWS whats new block - stay up to date on new services and features 
+
+## AWS Blog 
+* identify new features 
+
+## Key Points 
+* Abodingin unneeded cost or suboptimal resources 
+* Measuring overall workload efficiency
+* Managing demand and supply resources 
+* Using saving plans to reduce cost 
+* Measuring overall efficiency 
+* Learning about new services and features 
+
+
+## Introduction 
+* Review Process 
+* Consistency 
+* Technology portfolio
+
+## What is a well architected review? 
+* Provides customers and partners with a consistent approach to reviewing their 
+workloads against current best practices and gives adivce on how to architect 
+workloads for the cloud using 5 pillars 
+
+## Intent 
+* way to work together to improve 
+* pragmatic proven advice that works 
+* do throughout product lifecycle 
+
+## Review learnings
+* Earlier is better 
+* not considered decisions 
+* most workloads can be improved 
+
+* Buildd and deploy faster 
+* lower or mitigate risks 
+* make informed decisions 
+* learn AWS best practices 
+
+* Framework whitepaper 
+* Pillar specific whitepapers 
+* free online training 
+
+## partners
+* get a freww review 
+* review results 
+* approve SOW within 30 days to receive 5k in AWS credit
+
+## Improve architecutres 
+## Leverage resources that are well available to you on site
+
+# AWS Well Architected Tool 
+* provides customers and partners with consistent approach to reviewing their atchitures against best AWS practices 
+*Learn measure and improve against best practices 
+* using five pillars 
+
+## Workload 
+* a collection of AWS resources and code that delivers business value 
+
+
+## Milestones 
+* record progress 
+* Design Time 
+* Runtime 
+
+## Features 
+* define workloads and perform reviews 
+* locate helpful resources 
+* save milstones 
+* use dashboard 
+* generate PDF reports 
+* assign priorities to pillars 
+* Create Improvement Plan 
+
+

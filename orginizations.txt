@@ -1,0 +1,16 @@
+# AWS Organizations
+
+## Policy-based account management 
+## Group-based account management 
+## APIs that automate account management 
+## Consodlidated billing 
+
+# AWS Identity and Access Management (IAM)
+## policies enable you to allow or deny access to AWAS services for groups,users and roles
+## Service control policies enable you to allow or deny access to AWS services for individualds or group accounts in OU
+
+## Create orignizations
+## Create OUs originizational unites
+## Create service control policies 
+## Test Restrictions
+
