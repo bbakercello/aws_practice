@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "storage": {
+      "radioheaddb": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
