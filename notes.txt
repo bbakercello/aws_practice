@@ -1,21 +1,56 @@
-Operational Excellence
+### Operational Excellence
 
-- Ability to run and monitor systems to deliver business 
-    - Organization - how Organization supports businses outcomes and teamates 
-    - Prepare - review readiness of workloads and teams to make decisions when to go live
-    - Operate - identify when Organization outcomes are at risk and respond
-    - Evolve - Continuous improvement - feedback loops, learning, making improvements
+# Ability to run and monitor systems to deliver business 
+    * Organization - how Organization supports businses outcomes and teamates 
+    * Prepare - review readiness of workloads and teams to make decisions when to go live
+    * Operate - identify when Organization outcomes are at risk and respond
+    * Evolve - Continuous improvement - feedback loops, learning, making improvements
 
-Traditional Environment 
-- manual cheanges
-- batch cheanges
-- rarely run Game Days
-- No time to learn from mistakes
-- Stale documentation
+## Traditional Environment 
+* manual cheanges
+* batch cheanges
+* rarely run Game Days
+* No time to learn from mistakes
+* Stale documentation
 
-Vs Cloud
-- Perform operations as code
-- Make frequent, small, revesrible cheanges
-- Refine operations procedures frequently
-- Anticipate failure
-- Learn from all operational failures
+## Vs Cloud
+* Perform operations as code
+* Make frequent, small, revesrible cheanges
+* Refine operations procedures frequently
+* Anticipate failure
+* Learn from all operational failures
+
+# common understanding of workloads
+* set priorities and understand roles 
+* understanding responsibility will maximize benefit
+* support teammates in good orginzational culture
+
+## Orginization
+* understanding business needs
+*Design telemetry - logs, events for understanding state
+* Improve flow - limit issues that move forward, fix issues before procedures
+* Mitigate deployment risks - rapid recovery
+* Undrestand operational readiness - how team is ready to service the deployed product
+
+
+## Prepare 
+* multiple environemnts for experimentation - work in parallel without impacts
+* security controls should increase as environemnts approach production
+* when environments are not in use, turn them off
+
+## Operate
+* understanding workload health
+* understanding operations health
+* run books and playbooks to have consistent responses to events
+* events observation of interest
+* incident or a problem
+* well defined response by playbook - external parties, like AWS support
+
+## Evolve
+* Learn from experience
+* Make improvements
+* Share learning across teams
+* Encorporate feedback loops - identify areas for improvement
+* prioritize and dirive improvements where needed
+* begin on operations activities, customer experiences and business dev teams
+* Recognize improvement
